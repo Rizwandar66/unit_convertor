@@ -34,7 +34,7 @@ def pressure_convertor(from_unit, to_unit, value):
     units = {
         "Pascals" : 1,
         "Hectopascals" : 100,
-        "Kiopasclas" : 1000,
+        "Kilopasclas" : 1000,
         "Bar" : 100000,
     }
     result = value * units[from_unit] / units[to_unit]
